@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- font awesome CDN -->
-  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">TinDog</a>
+        <a class="navbar-brand" href="">tindog</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,11 +54,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img class="iphone-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
     </div>
@@ -68,16 +68,23 @@
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+    <div class="row">
+      <div class="col-lg-4 col-md-12">
+        <i class="feature-logo fa-solid fa-circle-check fa-5x"></i>
+        <h3 class="feature-h3">Easy to use.</h3>
+        <p class="feature-p">So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <i class="feature-logo fa-solid fa-bullseye fa-5x"></i>
+        <h3 class="feature-h3">Elite Clientele</h3>
+        <p class="feature-p">We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <i class="feature-logo fa-solid fa-heart fa-5x"></i>
+        <h3 class="feature-h3">Guaranteed to work.</h3>
+        <p class="feature-p">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
   </section>
 
 
