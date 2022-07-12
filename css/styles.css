@@ -7,6 +7,16 @@ h1{
   line-height: 1.5;
   font-weight: 800;
 }
+/* h3 in features section */
+h4{
+  font-family: "Montserrat-Bold",sans-serif;
+  font-weight: bold;
+  font-size:2rem;
+}
+/* p in features section */
+p{
+  color:#8f8f8f;
+}
 .container-fluid{
   padding: 3% 12%;
 }
@@ -45,21 +55,15 @@ h1{
 
 /* FEATURES */
 #features{
-  margin:100px 75px 0;
+  padding: 7% 15%;
 }
-.feature-h3{
-  font-family:"Montserrat-Bold",sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
+.feature-box{
   text-align: center;
-}
-.feature-p{
-  color:#8f8f8f;
-  text-align: center;
+  padding: 5%;
 }
 .feature-logo{
+  margin-bottom: 1rem;
   color: #ef8172;
-  width: 100%;
 }
 .feature-logo:hover{
   color: #ff4c68;
