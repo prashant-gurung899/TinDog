@@ -30,7 +30,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 12%;
+  padding: 3% 12% 7%;
 }
 
 #title {
@@ -65,14 +65,22 @@ p {
 }
 
 /* IPHONE IMAGE */
+.iphone{
+  position: relative;
+}
 .iphone-image {
   width: 55%;
+  position: absolute;
   transform: rotate(25deg);
+right: 25%;
 }
 
 /* FEATURES */
 #features {
   padding: 7% 15%;
+  background-color:#FFF;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
