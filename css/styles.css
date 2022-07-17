@@ -29,7 +29,14 @@ p {
   padding: 7% 15%;
 }
 
-
+/* SECTIONS */
+.colored-section{
+background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+background-color: #FFF;
+}
 /* NAVIGATION BAR */
 .navbar {
   padding: 0 0 4.5rem;
@@ -50,15 +57,9 @@ p {
   font-family: "Montserrat-Light", sans-serif;
 }
 /* TITLE SECTION */
-#title {
-  /* color for h1 title and for other inside id=title section */
-  color: white;
-  text-align: left;
-  background-color: #ff4c68;
-}
-
 #title .container-fluid{
   padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* TITLE IPHONE IMAGE */
@@ -83,13 +84,13 @@ p {
 
 /* FEATURES */
 #features {
-  background-color: #FFF;
+
   position: relative;
   z-index: 1;
 }
 .feature-title{
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .feature-box {
   padding: 5%;
@@ -106,8 +107,7 @@ p {
 
 /* TESTIMONIALS */
 #testimonials {
-  background-color: #ff4c68;
-  color: #fff;
+  background-color: #ef8172;
 }
 .testimonial-text{
   font-size: 3rem;
@@ -122,7 +122,7 @@ p {
 
 /* press */
 #press {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -147,11 +147,7 @@ p {
   padding: 3% 2%;
 }
 
-/* call to action */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
+
 
 /* FOOTER */
 #footer {
